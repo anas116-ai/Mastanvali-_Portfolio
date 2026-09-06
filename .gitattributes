@@ -1,0 +1,6 @@
+# Ignore huge static demo and public HTML files from GitHub language stats
+public/**/*.html linguist-vendored
+public/**/*.html linguist-documentation
+scratch/**/*.html linguist-vendored
+scratch/**/*.html linguist-documentation
+vibe-portfolio/** linguist-vendored
