@@ -8,7 +8,6 @@ import {
   ShieldCheck,
   Zap,
   Layers,
-  GitBranch,
   Cpu,
   Code2,
   Server,

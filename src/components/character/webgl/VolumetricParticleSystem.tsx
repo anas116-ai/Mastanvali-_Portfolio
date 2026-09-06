@@ -15,12 +15,10 @@ export function VolumetricParticleSystem({
 }: VolumetricParticlesProps) {
   const pointsRef = useRef<THREE.Points>(null);
 
-  // Generate 3D Particle Cloud
-  const [positions, colors, scales, speeds, initPos] = useMemo(() => {
+// Generate 3D Particle Cloud
+  const [positions, colors, speeds] = useMemo(() => {
     const pos = new Float32Array(count * 3);
-    const initial = new Float32Array(count * 3);
     const col = new Float32Array(count * 3);
-    const sca = new Float32Array(count);
     const spd = new Float32Array(count * 3);
 
     const palette = [
@@ -58,17 +56,11 @@ export function VolumetricParticleSystem({
       pos[idx + 1] = y;
       pos[idx + 2] = z;
 
-      initial[idx] = x;
-      initial[idx + 1] = y;
-      initial[idx + 2] = z;
-
       // Authentic ambient dust colors
       const color = palette[Math.floor(Math.random() * palette.length)];
       col[idx] = color.r;
       col[idx + 1] = color.g;
       col[idx + 2] = color.b;
-
-      sca[i] = Math.random() * 1.4 + 0.5;
 
       // Upward continuous velocity rising up from legs towards hip and beyond
       spd[idx] = (Math.random() - 0.5) * 0.005;
@@ -76,7 +68,7 @@ export function VolumetricParticleSystem({
       spd[idx + 2] = (Math.random() - 0.5) * 0.003;
     }
 
-    return [pos, col, sca, spd, initial];
+    return [pos, col, spd];
   }, [count]);
 
   const particleTexture = useMemo(() => {

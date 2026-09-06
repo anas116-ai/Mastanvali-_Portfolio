@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import { FadeIn } from "./FadeIn";
-import { ContactButton } from "./Buttons";
-import { Mail, Linkedin, Github, FileText, Phone, Copy, Check } from "lucide-react";
+import { Mail, Linkedin, Github, FileText, Copy, Check } from "lucide-react";
 import { ResumeModal } from "@/components/resume/ResumeModal";
 import { ShaderIgnitionButton } from "@/components/ui/ShaderIgnitionButton";
 

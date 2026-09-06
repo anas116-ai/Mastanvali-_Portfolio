@@ -96,10 +96,6 @@ const masterBooks: MasterBook[] = [
 export function SkillsSection() {
   const [openedBook, setOpenedBook] = useState<number | null>(null);
 
-  const toggleBook = (idx: number) => {
-    setOpenedBook(idx);
-  };
-
   // Keyboard navigation for open book (Esc to close, Left/Right arrows to flip volumes)
   React.useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -153,7 +149,7 @@ export function SkillsSection() {
                 <motion.div
                   whileHover={{ y: -10, rotateY: -6, rotateX: 3, scale: 1.02 }}
                   transition={{ type: "spring", stiffness: 350, damping: 24 }}
-                  onClick={() => toggleBook(idx)}
+                  onClick={() => setOpenedBook(idx)}
                   className="relative group cursor-pointer select-none w-full max-w-[320px] h-[400px] rounded-2xl overflow-hidden border border-white/10 hover:border-[#F47A18]/60 bg-[#060A16]/90 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.85)] hover:shadow-[0_25px_60px_rgba(244,122,24,0.22)] transition-all duration-300 flex flex-col justify-between p-6"
                 >
                   {/* Subtle Left Luminous Spine Indicator */}

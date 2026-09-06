@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
@@ -28,7 +28,7 @@ export function GroundShadow3D({ mousePosition }: GroundShadow3DProps) {
           opacity={0.45}
           depthWrite={false}
           blending={THREE.AdditiveBlending}
-          map={createUltraSoftRadialTexture("#14B8A6", 0.35, 0.0)}
+          map={createUltraSoftRadialTexture(0.35, 0.0)}
         />
       </mesh>
 
@@ -40,7 +40,7 @@ export function GroundShadow3D({ mousePosition }: GroundShadow3DProps) {
           opacity={0.95}
           depthWrite={false}
           blending={THREE.NormalBlending}
-          map={createUltraSoftRadialTexture("#010308", 0.98, 0.0)}
+          map={createUltraSoftRadialTexture(0.98, 0.0)}
         />
       </mesh>
 
@@ -52,7 +52,7 @@ export function GroundShadow3D({ mousePosition }: GroundShadow3DProps) {
           opacity={0.96}
           depthWrite={false}
           blending={THREE.NormalBlending}
-          map={createUltraSoftRadialTexture("#010308", 0.98, 0.0)}
+          map={createUltraSoftRadialTexture(0.98, 0.0)}
         />
       </mesh>
 
@@ -64,7 +64,7 @@ export function GroundShadow3D({ mousePosition }: GroundShadow3DProps) {
           opacity={0.65}
           depthWrite={false}
           blending={THREE.NormalBlending}
-          map={createUltraSoftRadialTexture("#010308", 0.88, 0.0)}
+          map={createUltraSoftRadialTexture(0.88, 0.0)}
         />
       </mesh>
 
@@ -76,7 +76,7 @@ export function GroundShadow3D({ mousePosition }: GroundShadow3DProps) {
           opacity={0.50}
           depthWrite={false}
           blending={THREE.NormalBlending}
-          map={createUltraSoftRadialTexture("#02050E", 0.80, 0.0)}
+          map={createUltraSoftRadialTexture(0.80, 0.0)}
         />
       </mesh>
     </group>
@@ -84,7 +84,7 @@ export function GroundShadow3D({ mousePosition }: GroundShadow3DProps) {
 }
 
 // Procedural ultra-soft Gaussian-style radial gradient texture that dissolves 100% seamlessly into dark backgrounds
-function createUltraSoftRadialTexture(colorHex: string, innerAlpha: number, outerAlpha: number): THREE.CanvasTexture {
+function createUltraSoftRadialTexture(innerAlpha: number, outerAlpha: number): THREE.CanvasTexture {
   if (typeof document === "undefined") {
     return new THREE.CanvasTexture(null as unknown as HTMLCanvasElement);
   }

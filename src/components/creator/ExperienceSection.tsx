@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { FadeIn } from "./FadeIn";
 import { experience } from "@/data/experience";
 import {
-  Briefcase,
   Calendar,
   MapPin,
   CheckCircle2,

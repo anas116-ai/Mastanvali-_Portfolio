@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useRef, Suspense, useState, useEffect, Component, type ReactNode } from "react";import { Canvas } from "@react-three/fiber";
-import * as THREE from "three";
 import { DepthCharacterMesh } from "@/components/character/webgl/DepthCharacterMesh";
 import { GroundShadow3D } from "@/components/character/webgl/GroundShadow3D";
 import { VolumetricParticleSystem } from "@/components/character/webgl/VolumetricParticleSystem";

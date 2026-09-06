@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { FadeIn } from "./FadeIn";
 import {
   Database,
@@ -14,8 +14,6 @@ import {
   X,
   CheckCircle2,
   Sparkles,
-  ArrowRight,
-  RotateCw,
   type LucideIcon,
 } from "lucide-react";
 

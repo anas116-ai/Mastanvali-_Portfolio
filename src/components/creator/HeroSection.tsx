@@ -3,11 +3,9 @@
 import { useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FadeIn } from "./FadeIn";
-import { ContactButton } from "./Buttons";
 import { InteractiveCharacter } from "./InteractiveCharacter";
-import { ArrowDown, Github, Linkedin, Terminal, Database, Bot, FileText, Sparkles } from "lucide-react";
+import { ArrowDown, Github, Linkedin, FileText } from "lucide-react";
 import { ResumeModal } from "@/components/resume/ResumeModal";
-import Link from "next/link";
 
 import { HeroSnowParticles } from "./HeroSnowParticles";
 import { ShaderIgnitionButton } from "@/components/ui/ShaderIgnitionButton";

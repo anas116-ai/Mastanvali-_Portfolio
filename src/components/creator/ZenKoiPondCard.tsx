@@ -148,7 +148,7 @@ export function ZenKoiPondCard({ area, index }: ZenKoiPondCardProps) {
     const fishCount = area.fishCount; // 1, 2, or 3
 
     // Waypoint picker across the entire card pond area (full edge-to-edge & top-to-bottom)
-    const pickNewTarget = (i: number) => {
+    const pickNewTarget = () => {
       const minX = width * 0.06;
       const maxX = width * 0.94;
       const minY = height * 0.08;
@@ -163,7 +163,7 @@ export function ZenKoiPondCard({ area, index }: ZenKoiPondCardProps) {
     const fishes: CuteBabyKoi[] = Array.from({ length: fishCount }, (_, i) => {
       const startX = width * (0.12 + (i / Math.max(1, fishCount)) * 0.76);
       const startY = height * (0.18 + (i % 2) * 0.54);
-      const target = pickNewTarget(i);
+      const target = pickNewTarget();
       const initialAngle = Math.atan2(target.y - startY, target.x - startX);
       const dims = fishDimensions[i % fishDimensions.length] || { sx: 0.18, sy: 0.13 };
 
@@ -365,7 +365,7 @@ export function ZenKoiPondCard({ area, index }: ZenKoiPondCardProps) {
         fish.retargetTimer--;
         const distToTarget = Math.hypot(fish.targetX - fish.x, fish.targetY - fish.y);
         if (distToTarget < 40 || fish.retargetTimer <= 0) {
-          const newT = pickNewTarget(fIdx);
+          const newT = pickNewTarget();
           fish.targetX = newT.x;
           fish.targetY = newT.y;
           fish.retargetTimer = 160 + Math.random() * 140;

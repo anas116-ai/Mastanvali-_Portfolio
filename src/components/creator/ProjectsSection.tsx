@@ -1,9 +1,9 @@
 "use client";
 
 import { useRef, useState, useEffect } from "react";
-import { motion, useScroll, useTransform, MotionValue, AnimatePresence } from "framer-motion";
+import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { FadeIn } from "./FadeIn";
-import { CheckCircle2, ArrowRight, ExternalLink, Github, Maximize2, X } from "lucide-react";
+import { CheckCircle2, ExternalLink, Github, Maximize2, X } from "lucide-react";
 import Image from "next/image";
 import { ShaderIgnitionButton, IgnitionColorVariant } from "@/components/ui/ShaderIgnitionButton";
 

@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Download, ExternalLink, ShieldCheck } from "lucide-react";
+import { X, Download, ExternalLink } from "lucide-react";
 
 interface ResumeModalProps {
   isOpen: boolean;
