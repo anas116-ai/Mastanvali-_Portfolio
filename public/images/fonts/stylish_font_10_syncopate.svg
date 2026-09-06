@@ -1,0 +1,107 @@
+<svg width="1200" height="740" viewBox="0 0 1200 740" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,500&amp;f[]=cabinet-grotesk@400,500&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Bellefair&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500&amp;family=Italiana&amp;family=Marcellus&amp;family=Poiret+One&amp;family=Prata&amp;family=Syncopate:wght@400&amp;family=Tenor+Sans&amp;display=swap');
+      .font-test { font-family: 'Syncopate', sans-serif; }
+      .mono { font-family: 'JetBrains Mono', monospace, ui-monospace; }
+    </style>
+    <linearGradient id="bg-10_syncopate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091322"/>
+      <stop offset="50%" stop-color="#050B14"/>
+      <stop offset="100%" stop-color="#03060B"/>
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1728"/>
+      <stop offset="100%" stop-color="#070E1A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="740" rx="20" fill="url(#bg-10_syncopate)" stroke="#1E293B" stroke-width="2"/>
+  
+  <!-- Header Banner -->
+  <rect x="30" y="30" width="1140" height="70" rx="12" fill="#0E1E34" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="50" y="74" fill="#F3F1E8" class="font-test" font-size="26" font-weight="400">10 // Syncopate Regular</text>
+  <rect x="830" y="47" width="310" height="34" rx="8" fill="#8B5CF6" fill-opacity="0.15" stroke="#8B5CF6" stroke-width="1"/>
+  <text x="985" y="69" fill="#8B5CF6" class="mono" font-size="11" font-weight="700" text-anchor="middle">Cinematic Horizontal Span</text>
+
+  <!-- 4 Projects 2x2 Grid -->
+  
+    <g transform="translate(30, 120)">
+      <rect width="560" height="270" rx="14" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.5"/>
+      <rect x="20" y="16" width="110" height="24" rx="6" fill="#F47A18" fill-opacity="0.15" stroke="#F47A18" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="75" y="32" fill="#F47A18" class="mono" font-size="10" font-weight="700" text-anchor="middle">PROJECT // 01</text>
+      
+      <!-- Section 1: Title Case (Aa) -->
+      <text x="24" y="68" fill="#22C7D8" class="mono" font-size="10" font-weight="700" letter-spacing="1">TITLE CASE (Aa - First Capital, Rest Small):</text>
+      <text x="24" y="100" fill="#F3F1E8" class="font-test" font-size="26" font-weight="400">AnPharmacy</text>
+      <text x="24" y="124" fill="#A7B2B8" class="font-test" font-size="14" font-weight="400">Intelligent Pharmacy ERP & Inventory Engine</text>
+
+      <!-- Divider -->
+      <line x1="24" y1="145" x2="536" y2="145" stroke="#334155" stroke-width="1" stroke-dasharray="4 4"/>
+
+      <!-- Section 2: ALL CAPS (AA) -->
+      <text x="24" y="174" fill="#F47A18" class="mono" font-size="10" font-weight="700" letter-spacing="1">ALL CAPS (AA - Complete Capital Letters):</text>
+      <text x="24" y="206" fill="#F3F1E8" class="font-test" font-size="22" font-weight="400" letter-spacing="2">ANPHARMACY</text>
+      <text x="24" y="230" fill="#A7B2B8" class="font-test" font-size="12" font-weight="400" letter-spacing="1">INTELLIGENT PHARMACY ERP & INVENTORY ENGINE</text>
+    </g>
+    
+    <g transform="translate(610, 120)">
+      <rect width="560" height="270" rx="14" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.5"/>
+      <rect x="20" y="16" width="110" height="24" rx="6" fill="#F47A18" fill-opacity="0.15" stroke="#F47A18" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="75" y="32" fill="#F47A18" class="mono" font-size="10" font-weight="700" text-anchor="middle">PROJECT // 02</text>
+      
+      <!-- Section 1: Title Case (Aa) -->
+      <text x="24" y="68" fill="#22C7D8" class="mono" font-size="10" font-weight="700" letter-spacing="1">TITLE CASE (Aa - First Capital, Rest Small):</text>
+      <text x="24" y="100" fill="#F3F1E8" class="font-test" font-size="26" font-weight="400">Anasify</text>
+      <text x="24" y="124" fill="#A7B2B8" class="font-test" font-size="14" font-weight="400">ATS Resume Optimizer & Career Engine</text>
+
+      <!-- Divider -->
+      <line x1="24" y1="145" x2="536" y2="145" stroke="#334155" stroke-width="1" stroke-dasharray="4 4"/>
+
+      <!-- Section 2: ALL CAPS (AA) -->
+      <text x="24" y="174" fill="#F47A18" class="mono" font-size="10" font-weight="700" letter-spacing="1">ALL CAPS (AA - Complete Capital Letters):</text>
+      <text x="24" y="206" fill="#F3F1E8" class="font-test" font-size="22" font-weight="400" letter-spacing="2">ANASIFY</text>
+      <text x="24" y="230" fill="#A7B2B8" class="font-test" font-size="12" font-weight="400" letter-spacing="1">ATS RESUME OPTIMIZER & CAREER ENGINE</text>
+    </g>
+    
+    <g transform="translate(30, 410)">
+      <rect width="560" height="270" rx="14" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.5"/>
+      <rect x="20" y="16" width="110" height="24" rx="6" fill="#F47A18" fill-opacity="0.15" stroke="#F47A18" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="75" y="32" fill="#F47A18" class="mono" font-size="10" font-weight="700" text-anchor="middle">PROJECT // 03</text>
+      
+      <!-- Section 1: Title Case (Aa) -->
+      <text x="24" y="68" fill="#22C7D8" class="mono" font-size="10" font-weight="700" letter-spacing="1">TITLE CASE (Aa - First Capital, Rest Small):</text>
+      <text x="24" y="100" fill="#F3F1E8" class="font-test" font-size="26" font-weight="400">AnsiQ</text>
+      <text x="24" y="124" fill="#A7B2B8" class="font-test" font-size="14" font-weight="400">Autonomous Multi-Agent Task Orchestrator</text>
+
+      <!-- Divider -->
+      <line x1="24" y1="145" x2="536" y2="145" stroke="#334155" stroke-width="1" stroke-dasharray="4 4"/>
+
+      <!-- Section 2: ALL CAPS (AA) -->
+      <text x="24" y="174" fill="#F47A18" class="mono" font-size="10" font-weight="700" letter-spacing="1">ALL CAPS (AA - Complete Capital Letters):</text>
+      <text x="24" y="206" fill="#F3F1E8" class="font-test" font-size="22" font-weight="400" letter-spacing="2">ANSIQ</text>
+      <text x="24" y="230" fill="#A7B2B8" class="font-test" font-size="12" font-weight="400" letter-spacing="1">AUTONOMOUS MULTI-AGENT TASK ORCHESTRATOR</text>
+    </g>
+    
+    <g transform="translate(610, 410)">
+      <rect width="560" height="270" rx="14" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.5"/>
+      <rect x="20" y="16" width="110" height="24" rx="6" fill="#F47A18" fill-opacity="0.15" stroke="#F47A18" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="75" y="32" fill="#F47A18" class="mono" font-size="10" font-weight="700" text-anchor="middle">PROJECT // 04</text>
+      
+      <!-- Section 1: Title Case (Aa) -->
+      <text x="24" y="68" fill="#22C7D8" class="mono" font-size="10" font-weight="700" letter-spacing="1">TITLE CASE (Aa - First Capital, Rest Small):</text>
+      <text x="24" y="100" fill="#F3F1E8" class="font-test" font-size="26" font-weight="400">Qode-Sync</text>
+      <text x="24" y="124" fill="#A7B2B8" class="font-test" font-size="14" font-weight="400">Real-Time Collaborative Code Playground</text>
+
+      <!-- Divider -->
+      <line x1="24" y1="145" x2="536" y2="145" stroke="#334155" stroke-width="1" stroke-dasharray="4 4"/>
+
+      <!-- Section 2: ALL CAPS (AA) -->
+      <text x="24" y="174" fill="#F47A18" class="mono" font-size="10" font-weight="700" letter-spacing="1">ALL CAPS (AA - Complete Capital Letters):</text>
+      <text x="24" y="206" fill="#F3F1E8" class="font-test" font-size="22" font-weight="400" letter-spacing="2">QODE-SYNC</text>
+      <text x="24" y="230" fill="#A7B2B8" class="font-test" font-size="12" font-weight="400" letter-spacing="1">REAL-TIME COLLABORATIVE CODE PLAYGROUND</text>
+    </g>
+    
+</svg>

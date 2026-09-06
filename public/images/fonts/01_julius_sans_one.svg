@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+      .font-specimen { font-family: 'Julius Sans One', sans-serif, serif; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D1A"/>
+      <stop offset="50%" stop-color="#050811"/>
+      <stop offset="100%" stop-color="#080D1A"/>
+    </linearGradient>
+    <radialGradient id="glowAmber" cx="80%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="rgba(244, 122, 24, 0.18)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glowSky" cx="20%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="rgba(56, 189, 248, 0.15)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="680" rx="28" fill="url(#bgGrad)" stroke="#222C3D" stroke-width="2"/>
+  <rect width="1200" height="680" fill="url(#glowAmber)"/>
+  <rect width="1200" height="680" fill="url(#glowSky)"/>
+
+  <!-- Top Badge Bar -->
+  <rect x="50" y="45" width="1100" height="60" rx="12" fill="#0C1424" stroke="#1E293B" stroke-width="1.5"/>
+  <circle cx="75" cy="75" r="6" fill="#F47A18"/>
+  <text x="95" y="80" fill="#F3F1E8" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" letter-spacing="1">
+    FONT SPECIMEN // 01. JULIUS SANS ONE
+  </text>
+  <text x="1120" y="80" text-anchor="end" fill="#94A3B8" font-family="monospace" font-size="13">
+    Google Fonts &bull; Julius Sans One
+  </text>
+
+  <!-- STYLE 1: TITLE CASE (FIRST CAPITAL, REST SMALL) -->
+  <rect x="50" y="130" width="1100" height="235" rx="18" fill="#060A14" stroke="#0284C7" stroke-width="1.5" stroke-opacity="0.5"/>
+  <rect x="75" y="150" width="310" height="28" rx="6" fill="rgba(56, 189, 248, 0.12)" stroke="#38BDF8" stroke-width="1"/>
+  <text x="85" y="169" fill="#38BDF8" font-family="monospace" font-size="12" font-weight="bold" letter-spacing="1.5">
+    STYLE 1 // TITLE CASE (Aa Bb Cc)
+  </text>
+
+  <text x="75" y="240" fill="#FFFFFF" class="font-specimen" font-size="52" font-weight="normal">
+    Shaik Mastan Vali
+  </text>
+  <text x="75" y="295" fill="#BAE6FD" class="font-specimen" font-size="22" font-weight="normal" letter-spacing="1">
+    Sap Bods 4.3 Developer &bull; Autonomous Ai Systems Builder &bull; Vibe Coder
+  </text>
+  <text x="75" y="335" fill="#94A3B8" class="font-specimen" font-size="15" font-weight="300">
+    Software Engineer with enterprise production data expertise at VHS Consulting (Client: TCS / Grainger).
+  </text>
+
+  <!-- STYLE 2: ALL CAPS (CAPITAL LETTERS) -->
+  <rect x="50" y="385" width="1100" height="235" rx="18" fill="#060A14" stroke="#D97706" stroke-width="1.5" stroke-opacity="0.5"/>
+  <rect x="75" y="405" width="310" height="28" rx="6" fill="rgba(244, 122, 24, 0.12)" stroke="#F47A18" stroke-width="1"/>
+  <text x="85" y="424" fill="#F47A18" font-family="monospace" font-size="12" font-weight="bold" letter-spacing="1.5">
+    STYLE 2 // ALL CAPS (AA BB CC)
+  </text>
+
+  <text x="75" y="495" fill="#FFFFFF" class="font-specimen" font-size="52" font-weight="normal" letter-spacing="2">
+    SHAIK MASTAN VALI
+  </text>
+  <text x="75" y="550" fill="#FED7AA" class="font-specimen" font-size="20" font-weight="normal" letter-spacing="2">
+    SAP BODS 4.3 DEVELOPER &bull; AUTONOMOUS AI SYSTEMS BUILDER &bull; VIBE CODER
+  </text>
+  <text x="75" y="590" fill="#94A3B8" class="font-specimen" font-size="14" font-weight="300" letter-spacing="1">
+    SOFTWARE ENGINEER WITH ENTERPRISE PRODUCTION DATA EXPERTISE AT VHS CONSULTING (CLIENT: TCS / GRAINGER).
+  </text>
+
+  <!-- Footer Note -->
+  <text x="600" y="655" text-anchor="middle" fill="#64748B" font-family="system-ui, sans-serif" font-size="12">
+    All-Caps design by nature: Lowercase is rendered in classic luxury small-cap proportions.
+  </text>
+</svg>
